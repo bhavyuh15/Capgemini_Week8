@@ -1,5 +1,5 @@
 function validateEmail(email) {
-    const regex = /^[a-zA-Z0-9._%+-]+@bridgelabz\.[a-zA-Z]+$/
+    const regex = /^[a-zA-Z0-9._%+-]+@bridgelabz\.co\.[a-zA-Z]+$/
 
     return regex.test(email);
 }
